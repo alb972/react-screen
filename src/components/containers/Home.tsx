@@ -175,16 +175,6 @@ export const TopBar = (): JSX.Element => {
 };
 
 const useStyles = makeStyles((theme: Theme) => ({
-  customText: {
-    marginRight: "12px",
-  },
-  customFilterBtn: {
-    backgroundColor: "#fff",
-    color: theme.palette.text.primary,
-    marginRight: "12px",
-    borderRadius: "9px",
-    boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
-  },
   customGreenBtn: {
     backgroundColor: "#54AC7E",
     color: "#fff",
